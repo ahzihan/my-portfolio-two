@@ -16,6 +16,11 @@ a{
     width: 50%;
     padding: 10px;
 }
+.half-width p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .default-btn{
     background-color: #FF5959;
     padding: 10px 20px;
@@ -30,11 +35,16 @@ a{
 .half-width img{
     max-width: 100%;
     height: 500px;
-    margin-left: 50px;
+}
+.left-margin{
+    margin-left: 100px;
 }
 .box{
     display: flex;
     align-items: center;
+}
+.box h1{
+    margin-left: 7px;
 }
 .border-style{
     border-left: 5px solid #FF5959;
@@ -43,7 +53,13 @@ a{
     
 }
 .mission{
+    margin-bottom: 60px;
+}
+.mission h1{
     text-align: center;
+}
+.mission h1 span{
+    color: coral;
 }
 .card{
     border-radius: 10px;
@@ -63,4 +79,38 @@ a{
 .logo img{
     width: 100px;
     height: 100px;
+}
+.developer-section{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+}
+.developer-section-two{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 250px;
+}
+.form-control{
+    padding: 10px 20px;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.testimonial-section h1 span{
+    color: coral;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+footer h1 span{
+    color: #FF5959!important;
 }
